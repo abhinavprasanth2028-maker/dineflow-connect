@@ -12,6 +12,15 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        // Custom DineFlow variants
+        success: "border-success/30 bg-success/10 text-success",
+        warning: "border-warning/30 bg-warning/10 text-warning",
+        info: "border-info/30 bg-info/10 text-info",
+        pending: "border-warning/30 bg-warning/10 text-warning",
+        preparing: "border-info/30 bg-info/10 text-info",
+        ready: "border-success/30 bg-success/10 text-success",
+        delivered: "border-muted bg-muted text-muted-foreground",
+        tag: "border-primary/20 bg-primary/5 text-primary text-[10px] px-2 py-0.5",
       },
     },
     defaultVariants: {
